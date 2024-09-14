@@ -7,8 +7,6 @@ This repository contains various examples and templates for Bicep. It helps you 
 - Introduction
 - Prerequisites
 - Getting Started
-- Examples
-- License
 
 ## Introduction
 
