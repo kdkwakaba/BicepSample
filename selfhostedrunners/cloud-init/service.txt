@@ -1,0 +1,12 @@
+#cloud-config
+timezone: Asia/Tokyo
+locale: ja_JP.utf8
+package_update: true
+package_upgrade: true
+packages:
+  - apache2
+
+runcmd:
+  - systemctl start apache2
+  - systemctl enable apache2
+  - chown -R azureuser:azureuser /var/www/html
