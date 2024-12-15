@@ -1,0 +1,6 @@
+#cloud-config 
+timezone: Asia/Tokyo
+locale: ja_JP.utf8
+
+runcmd:
+  - echo 'Host 10.0.0.4\n    StrictHostKeyChecking no\n    UserKnownHostsFile=/dev/null' >> /home/azureuser/.ssh/config
